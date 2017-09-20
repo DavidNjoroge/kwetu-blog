@@ -1,0 +1,20 @@
+.cardBody {
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  height: 40vh;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+body {
+  background-color: grey;
+}
+
+.card-group {
+  margin: 50px;
+}
