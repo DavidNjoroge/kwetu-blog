@@ -18,6 +18,14 @@ module.exports = function(environment) {
       }
     },
 
+
+
+    firebase: {
+      apiKey: "AIzaSyBjl7bwI0D7INS133siIqts0VxblOIUSPk",
+      authDomain: "kwetu-blog.firebaseapp.com",
+      databaseURL: "https://kwetu-blog.firebaseio.com",
+      storageBucket: 'YOUR-FIREBASE-APP.appspot.com'
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
