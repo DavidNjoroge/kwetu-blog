@@ -1,32 +1,27 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>kwetu-blog</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="app/styles/app.css">
-  </head>
-  <body>
+
 <div class="container">
   <div class="jumbotron" style="text-align: center;">
     <h2>kwetu blog</h2>
-    <p>a blog for everyone</p>
+    <p>a blog for everyone where you can find all the news</p>
+    <button class="btn" type="button" name="button"><strong>new article</strong></button>
   </div>
 </div>
 <div class="container">
+  cccc
+  {{#each model as |article|}}
 <div class="card-group">
   <div class="card">
-    <img class="card-img" src="http://ampthemag.com/wp-content/uploads/2016/05/nbc-fires-donald-trump-after-he-calls-mexicans-rapists-and-drug-runners.jpg" alt="Card image cap">
+    <img class="card-img" src="{{article.img}}" alt="Card image cap">
 
   </div>
   <div class="card cardBody">
     <h4 class="card-text">Trump Threatens to 'Totally Destroy' North Korea in First ...</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+    <p>{{article.par}}</p>
     <button class="btn" type="button" name="button"><strong>more</strong></button>
-
   </div>
 </div>
-
+{{/each}}
+cccc
 <div class="card-group">
   <div class="card">
     <img class="card-img" src="https://qzprod.files.wordpress.com/2017/05/rtr15m1h1.jpg?quality=80&strip=all" alt="Card image cap">
@@ -52,5 +47,3 @@
   </div>
 </div>
 </div>
-  </body>
-</html>

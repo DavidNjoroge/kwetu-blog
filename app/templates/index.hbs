@@ -1,0 +1,26 @@
+
+<div class="container">
+  <div class="jumbotron" style="text-align: center;">
+    <h2>kwetu blog</h2>
+    <p>a blog for everyone where you can find all the news</p>
+    <button class="btn" type="button" name="button"><strong>new article</strong></button>
+  </div>
+</div>
+<div class="container">
+  cccc
+  {{#each model as |article|}}
+<div class="card-group">
+  <div class="card">
+    <img class="card-img" src="{{article.img}}" alt="Card image cap">
+
+  </div>
+  <div class="card cardBody">
+    <h4 class="card-text">{{article.head}}</h4>
+    <p>{{article.par}}</p>
+    <button class="btn" type="button" name="button"><strong>more</strong></button>
+  </div>
+</div>
+{{/each}}
+cccc
+
+</div>

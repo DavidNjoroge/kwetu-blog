@@ -1,0 +1,21 @@
+{
+  "name": "kwetu-blog",
+  "description": "Small description for kwetu-blog goes here",
+  "main": ".eslintrc.js",
+  "authors": [
+    "njorogedavid13@gmail.com <njorogedavid13@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "tether": "^1.4.0"
+  }
+}
