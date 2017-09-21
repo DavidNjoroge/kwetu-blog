@@ -10,7 +10,7 @@ Router.map(function() {
   this.route('news');
   this.route('contact');
   this.route('article', {
-    path: '/article/: article_id'
+    path: '/article/:article_id'
   });
 });
 
