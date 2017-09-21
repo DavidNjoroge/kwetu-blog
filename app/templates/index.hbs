@@ -9,17 +9,7 @@
 <div class="container">
   cccc
   {{#each model as |article|}}
-<div class="card-group">
-  <div class="card">
-    <img class="card-img" src="{{article.img}}" alt="Card image cap">
-
-  </div>
-  <div class="card cardBody">
-    <h4 class="card-text">{{article.head}}</h4>
-    <p>{{article.par}}</p>
-    <button class="btn" type="button" name="button"><strong>more</strong></button>
-  </div>
-</div>
+{{article-tile article=article}}
 {{/each}}
 cccc
 
