@@ -3,7 +3,9 @@
   <div class="jumbotron" style="text-align: center;">
     <h2>kwetu blog</h2>
     <p>a blog for everyone where you can find all the news</p>
-    <button class="btn" type="button" name="button"><strong>new article</strong></button>
+    {{#link-to 'editor'}}
+        <button class="btn" type="button" name="button"><strong>new article</strong></button>
+    {{/link-to}}
   </div>
 </div>
 <div class="container">

@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('article', {
     path: '/article/:article_id'
   });
+  this.route('editor');
 });
 
 export default Router;
